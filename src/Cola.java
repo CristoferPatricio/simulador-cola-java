@@ -31,8 +31,7 @@ public class Cola<T> {
 
     /**
      * Elimina y retorna el primer elemento de la cola.
-     * 
-     * @return El dato del primer nodo o null si está vacía.
+     * @return El dato del nodo eliminado o null si está vacía.
      */
     public T desencolar() {
         if (estaVacia()) {
